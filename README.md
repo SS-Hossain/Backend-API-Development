@@ -35,8 +35,10 @@ As per the assignment instructions, I chose to implement two endpoints for the *
 
 ## Frontend Integration Analysis
 
-I successfully set up the Flutter environment, resolved multiple build and null-safety errors present in the provided `KPA-ERP-FE` codebase, and launched the application. My analysis concluded:
-1.  The frontend is hardcoded to work with the `bogie-checksheet` API, not the `wheel-specifications` API I implemented.
-2.  The application has internal bugs related to its Firebase implementation that prevent it from getting past the login screen.
+I successfully set up the Flutter environment, resolved multiple build and null-safety errors present in the provided `KPA-ERP-FE` codebase, and launched the application.
+
+My analysis concluded that the frontend is hardcoded to work with the `bogie-checksheet` API, not the `wheel-specifications` API I implemented. Furthermore, the application has internal bugs related to its Firebase implementation that prevent it from getting past the login screen, as shown in the screenshot below.
+
+![Frontend Execution Error](docs/frontend_error.png)
 
 As this is a backend-focused assignment, I have prioritized delivering a robust and thoroughly tested backend. My API has been verified with both Postman and the Swagger UI and is ready for integration.
